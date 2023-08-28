@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://trumpet.db.elephantsql.com/etqkpnbm
+    username: ${DB_USER}
+    password: ${DB_PASS}
