@@ -18,8 +18,10 @@ public class Car {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @JsonProperty("name")
+    @Column(name = "car_name")
     private String name;
     @JsonProperty("createdAt")
+    @Column(name = "created_at")
     private LocalDateTime createdAt;
 
 //    @JsonProperty("logId")

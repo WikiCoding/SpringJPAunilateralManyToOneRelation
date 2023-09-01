@@ -28,7 +28,7 @@ public class Log {
     @JsonProperty("amount")
     private double amount;
 
-    @Column(name = "price_Liter")
+    @Column(name = "price_liter")
     @JsonProperty("priceLiter")
     private double priceLiter;
 
