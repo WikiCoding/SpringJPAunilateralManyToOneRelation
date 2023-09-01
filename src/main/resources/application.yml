@@ -1,6 +1,0 @@
-spring:
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://trumpet.db.elephantsql.com/etqkpnbm
-    username: ${DB_USER}
-    password: ${DB_PASS}
